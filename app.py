@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 from network import *
 from util import *
-from flask import Flask, render_template
 from jinja2 import Environment, PackageLoader, select_autoescape
 
 
